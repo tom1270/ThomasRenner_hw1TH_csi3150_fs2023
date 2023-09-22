@@ -5,7 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thomas Renner Portfolio</title>
-    <link rel="shortcut icon" href="./img/resumePic.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/ThomasRenner_hw1TH_csi3150_fs2023/img/resumePic.png"
+      type="image/x-icon"
+    />
 
     <!-- CSS Library / JS libraries -->
   </head>
@@ -13,63 +17,85 @@
     <header id="page_header">
       <div id="logoContainer"></div>
       <img
-        src="./img/resumePic.png"
-        alt="Company Logo"
+        src="../img/resumePic.png"
+        alt="Personal Avatar"
         height="75"
         width="90"
       />
-      <span><strong>Thomas Renner -- Fun Facts</strong></span>
+      <span><strong>Some Fun Facts About Me</strong></span>
       <nav id="navbar">
         <a href="../index.html" class="navOption">Home</a>
         <a href="./my_resume.html" class="navOption">Resume</a>
         <a href="./my_fun_facts.html" class="navOption">Fun Facts</a>
       </nav>
-      </div>
-      <div id="searchBarContainer">
-        <label for="searchBar">Search Bar: </label>
-        <input type="search" name="searchBar" id="searchBar">
-      </div>
-      <div id="loginContainer"></div>
-        <a href="./login.html" class="navOption">Login</a>
     </header>
+
     <hr />
-    <article id="newsletterRegistrationContainer">
-        <form action="" method="post">
-        <label for="userFullName">Enter Your Full Name</label>
-        <input type="text" name="userFullName" id="userFullName" placeholder="John Doe"> <br>
-        <label for="newsletterSubscription">Choose Your Subscription Frequency</label> <br>
-        <input type="radio" name="newsletterSubscription" id="newsletterSubscription">
-        <label for="newsletterSubscription">Daily</label>
-        <input type="radio" name="newsletterSubscription" id="newsletterSubscription" value="daily">
-        <label for="newsletterSubscription">Weekly</label>
-        <input type="radio" name="newsletterSubscription" id="newsletterSubscription" value="Weekly">
-        <label for="newsletterSubscription">Monthly</label>
-        <input type="radio" name="newsletterSubscription" id="newsletterSubscription" value="Monthly"> <br>
-        <p>Which of the following topics interests you?</p>
-        <input type="checkbox" name="carpentary" id="carpentary" value="carpentary">
-        <label for="checkbox">carpentary</label>
-        <input type="checkbox" name="Plumbing" id="Plumbing" value="Plumbing">
-        <label for="checkbox">Plumbing</label>
 
-        <p>Enter any additional Comments:</p>
-        <textarea name="additionalComment" id="additionalComment" cols="30" rows="10"></textarea>
-        <select name="" id="">
-            <option value="MI">MI</option>
-            <option value="OH">OH</option>
-        </select>
-        <input type="submit" value="submit"/>
+    <main>
+      <section id="fun-facts">
+        <!-- Favorite Book -->
+        <div class="fun-fact">
+          <h3>Favorite Book</h3>
+          <img src="../img/bcover.png" alt="Book Cover" />
+          <p>
+            Title:
+            <a
+              href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=asc_df_0735211299?tag=bingshoppinga-20&linkCode=df0&hvadid=80195681258160&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583795260899949&psc=1"
+              >Atomic Habits</a
+            >
+          </p>
+          <p>
+            Description: The Book "Atomic Habits" is fantastic. It breaks down
+            simple things to do in order to form new Habits. It is very well
+            written and easy to understand, so that anyone can follow the ideas
+            of psychology, biology, and neuroscience.
+          </p>
+        </div>
 
-    </form>
-    </article>
+        <!-- Favorite Audio Track -->
+        <div class="fun-fact">
+          <h3>Favorite Audio Track</h3>
+          <p>Title: Jump</p>
+          <p>Artist: Van Halen</p>
+          <audio controls>
+            <source
+              src="/ThomasRenner_hw1TH_csi3150_fs2023/audio/AudioJump.mp3"
+              type="audio/mp3"
+            />
+            Your browser does not support the audio element.
+          </audio>
+          <p>
+            Listen and purchase:
+            <a
+              href="https://music.apple.com/us/album/jump/976831013?i=976832495"
+              >Itunes</a
+            >
+          </p>
+        </div>
+
+        <!-- Favorite Movie/TV Series -->
+        <div class="fun-fact">
+          <h3>Favorite Movie</h3>
+          <p>Top Gun: Maverick</p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/g4U4BQW9OEk"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
     <hr />
 
     <footer>
-      <address>115 Library Drive, Rochester MI, 48309</address>
-      <a href="http://instagram.com">Follow us on Instagram</a>
-      <a href="mailto:email@gmail.com">Email Us</a>
-      <a href="tel:123-123-1234">Give us a call</a>
+      <p>&copy; 2023 Thomas Renner</p>
+      <a href="mailto:thomas.renner02@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/thomas-renner-827b5b17a">LinkedIn</a>
+      <a href="https://github.com/tom1270?tab=repositories">Github</a>
     </footer>
-
-    <img src="" alt="" />
   </body>
 </html>

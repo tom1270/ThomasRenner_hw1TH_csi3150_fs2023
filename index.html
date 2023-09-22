@@ -1,48 +1,74 @@
 <!DOCTYPE html>
-<!-- this is a comment in html -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thomas Renner Portfolio</title>
     <link rel="shortcut icon" href="./img/resumePic.png" type="image/x-icon" />
-
-    <!-- CSS Library / JS libraries -->
   </head>
   <body>
-    <header id="page_header">
-      <div id="logoContainer"></div>
-      <img
-        src="./img/resumePic.png"
-        alt="Company Logo"
-        height="75"
-        width="90"
-      />
-      <span><strong>Thomas Renner -- Porfolio Website</strong></span>
-      <nav id="navbar">
-        <a href="../index.html" class="navOption">Home</a>
+    <header>
+      <h1>Thomas Renner - Portfolio Website</h1>
+      <nav>
+        <a href="./index.html" class="navOption">Home</a>
         <a href="./html/my_resume.html" class="navOption">Resume</a>
         <a href="./html/my_fun_facts.html" class="navOption">Fun Facts</a>
       </nav>
-      </div>
-      <div id="searchBarContainer">
-        <label for="searchBar">Search Bar: </label>
-        <input type="search" name="searchBar" id="searchBar">
-      </div>
-      <div id="loginContainer"></div>
-        <a href="./login.html" class="navOption">Login</a>
     </header>
+
     <hr />
+
+    <main>
+      <section id="intro">
+        <img
+          src="./img/resumePic.png"
+          alt="Personal Avatar"
+          height="75"
+          width="90"
+        />
+        <blockquote>
+          <p>
+            "I'm a great believer in luck, and I find the harder I work the more
+            I have of it.”
+          </p>
+          <p>- Thomas Jefferson</p>
+        </blockquote>
+        <p>
+          My name is Thomas Renner and I am a senior at Oakland University,
+          majoring in Computer Science. I am originally from Germany, so german
+          is my first language. I learned to program in high school and enjoyed
+          it ever since. I have held multiple internships throughout the years,
+          starting in IT, and moving on to a Software Engineering position, and
+          lastly, obtaining a System Integration Internship. As an Eagle Scout,
+          I have had the privilege to collaborate with and lead a multitude of
+          people with vastly different backgrounds. There, I was able to
+          demonstrate my ability to motivate and to find creative solutions to
+          difficult problems. Having written multiple complex programs, that
+          revolve around everyday needs, individually and with a team, I have
+          been able to continuously prove these skills in my coding and managing
+          of groups. To get to know more about me, visit my
+          <a href="./html/my_resume.html">Resume</a> and
+          <a href="./html/my_fun_facts.html">Fun Facts</a> pages.
+        </p>
+      </section>
+
+      <section id="progress">
+        <h2>Progress Toward Graduation</h2>
+        <progress max="128" value="120"></progress>
+        <p>
+          I have completed 120 course credits out of 128 to get a B.S. degree,
+          and will be completing the last 8 this school year.
+        </p>
+      </section>
+    </main>
 
     <hr />
 
     <footer>
-      <address>115 Library Drive, Rochester MI, 48309</address>
-      <a href="http://instagram.com">Follow us on Instagram</a>
-      <a href="mailto:email@gmail.com">Email Us</a>
-      <a href="tel:123-123-1234">Give us a call</a>
+      <p>&copy; 2023 Thomas Renner</p>
+      <a href="mailto:thomas.renner02@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/thomas-renner-827b5b17a">LinkedIn</a>
+      <a href="https://github.com/tom1270?tab=repositories">Github</a>
     </footer>
-
-    <img src="" alt="" />
   </body>
 </html>
